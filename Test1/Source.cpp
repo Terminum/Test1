@@ -11,14 +11,10 @@ public:
 
 	}
 
-	void SetX()
+	void SetXY()
 	{
 		std::cout << "Enter x - ";
 		std::cin >> x;
-	}
-
-	void SetY()
-	{
 		std::cout << "Enter y - ";
 		std::cin >> y;
 	}
@@ -85,8 +81,7 @@ int main()
 	{
 		if (c == 's')
 		{
-			P1.SetX();
-			P1.SetY();
+			P1.SetXY();
 		}
 		else if (c == 'm')
 		{
